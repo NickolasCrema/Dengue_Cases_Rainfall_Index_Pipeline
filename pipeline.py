@@ -128,7 +128,7 @@ def unpack_elements(element):
 def prepare_csv(element, delimiter):
     """
     @params:
-        element - data tuple (uf, year, month, rainfall, dengue-cases)
+        element - data tuple (uf, year, month, rainfall, dengue-cases) \n
         delimiter - character delimiter
     @return:
         string joined by delimiter

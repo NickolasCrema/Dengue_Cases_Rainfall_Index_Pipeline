@@ -1,2 +1,2 @@
 # Dengue_Cases_Rainfall_Index_Pipeline
-Apache Beam ETL Pipeline to enable the analysis of the relationship between dengue cases and rainfall in brazillian states
+Apache Beam ETL Pipeline to perform analysis on dengue cases and rainfall index in brazillian states

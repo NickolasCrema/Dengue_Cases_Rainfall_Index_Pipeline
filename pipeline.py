@@ -172,6 +172,6 @@ rain_dengue = (
     # | "print (rain_dengue)" >> beam.Map(print)
 )
 header = 'UF;YEAR;MONTH;RAINFALL;DENGUE_CASES'
-rain_dengue | "Persistindo os dados" >> WriteToText('dados/resultado', file_name_suffix='.csv', header=header)
+rain_dengue | "Write data" >> WriteToText('dados/resultado', file_name_suffix='.csv', header=header)
 
 pipeline.run()
